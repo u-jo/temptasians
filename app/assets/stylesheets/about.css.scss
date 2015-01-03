@@ -1,0 +1,17 @@
+#team {
+	.container {
+		.row.inner-top-sm {
+			padding-top: 20px;
+			.inner-bottom-sm {
+				padding-bottom: 20px;
+			}
+		}
+		.row.inner-top-sm.top-row {
+			padding-top: 0px;
+		}
+	}
+}
+
+#about {
+	background-image: image-url("pattern/pattern-background03.png");
+}

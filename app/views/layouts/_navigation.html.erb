@@ -1,0 +1,61 @@
+<div class="navbar">
+	<div class="navbar-header">
+		<div class="container">
+			
+			<!-- ============================================================= LOGO MOBILE ============================================================= -->
+			
+			<%= link_to root_url, class: "navbar-brand" do %>
+				<%= image_tag("logo.png", class: "logo") %>The Temptasians
+			<% end %>
+			
+			<!-- ============================================================= LOGO MOBILE : END ============================================================= -->
+			
+			<a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='ion-navicon-round'></i></a>
+			
+		</div><!-- /.container -->
+	</div><!-- /.navbar-header -->
+	<div class="yamm">
+		<div class="navbar-collapse collapse">
+			<div class="container">
+				
+				<!-- ============================================================= LOGO ============================================================= -->
+				
+				<a class="navbar-brand" href="index.html"><%= image_tag("logo.png", class: "logo") %></a>
+				
+				<!-- ============================================================= LOGO : END ============================================================= -->
+				
+				
+				<!-- ============================================================= MAIN NAVIGATION ============================================================= -->
+				
+				<ul class="nav navbar-nav">
+					
+					<li class="dropdown">
+						<!-- <a href="/">Home</a> -->
+					<%= link_to "Home", root_url, class: "dropdown-toggle js-activated" %>
+					</li>
+					 
+					<li class="dropdown">
+						<a href="/about">About us</a>
+					</li>
+					
+					<li class="dropdown">
+						<a href="/media">Media</a>
+					</li>
+					
+					<li class="dropdown">
+						<a href="#">Bookings</a>
+					</li>
+					
+					<li class="dropdown">
+						<a href="#">Auditions</a>
+					</li>
+					
+					
+				</ul><!-- /.nav -->
+				
+				<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
+				
+			</div><!-- /.container -->
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.yamm -->
+</div><!-- /.navbar -->
