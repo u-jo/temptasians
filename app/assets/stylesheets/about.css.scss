@@ -14,4 +14,27 @@
 
 #about {
 	background-image: image-url("pattern/pattern-background03.png");
+	.inner-bottom-sm {
+		padding-bottom: 50px;
+	}
+	.inner-top {
+		padding-top: 50px;
+	}
+}
+
+.member {
+	figcaption {
+		padding-top: 12px;
+		h2 {
+			font-size: 16px;
+		}
+	}
+}
+
+.owl-about {
+	.owl-controls {
+		.owl-pagination {
+			z-index: 10;
+		}
+	}
 }

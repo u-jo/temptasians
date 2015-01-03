@@ -80,14 +80,14 @@ $(document).ready(function () {
 	
 	$(owlElementID).owlCarousel({
 		
-		autoPlay: 5000,
+		autoPlay: false,
 		stopOnHover: true,
         navigation: true,
 		pagination: true,
 		singleItem: true,
 		addClassActive: true,
         transitionStyle: "fade",
-        navigationText: ["<i class='icon-left-open-mini'></i>", "<i class='icon-right-open-mini'></i>"],
+        navigationText: ["<i class='ion-arrow-left-b'></i>", "<i class='ion-arrow-right-b'></i>"],
 			
     	afterInit: function() {
         	fadeIn();
