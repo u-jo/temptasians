@@ -6,5 +6,15 @@ class StaticPagesController < ApplicationController
 	end
 
 	def media
+		@media_path = 'xEQvW1wZhJM'
+		@autoplay = 0
+	end
+
+	def from_path
+		@media_path = params[:youtube_id]
+		@autoplay = 1
+		respond_to do |format|
+			format.js
+		end
 	end
 end

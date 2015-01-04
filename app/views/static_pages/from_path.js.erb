@@ -1,0 +1,2 @@
+$('#portfolio-post').remove();
+$("#youtube-video").html("<%= escape_javascript(render partial: 'youtube', locals: { path: @media_path, autoplay: @autoplay } ) %>"); 

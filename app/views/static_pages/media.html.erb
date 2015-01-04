@@ -1,6 +1,6 @@
 <!-- ============================================================= MAIN ============================================================= -->
 		
-<main>
+<main class="light-bg">
 	
 	<!-- ============================================================= SECTION – MORE VIDEOS ============================================================= -->
 	<section id="more-videos">
@@ -26,12 +26,18 @@
 											<figure>
 											
 												<div class="icon-overlay icn-link">
-													<a href="/media"><%= image_tag("media/work01.jpg") %></a>
+													<%= link_to fetch_media_path(:youtube_id => 'xEQvW1wZhJM'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/xEQvW1wZhJM/hqdefault.jpg") %>
+													<% end %>
 												</div><!-- /.icon-overlay -->
 												
 												<figcaption class="bordered no-top-border">
 													<div class="info">
-														<h4><a href="/media">That's Christmas to Me</a></h4>
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => 'xEQvW1wZhJM'), :remote => true do %>
+																That's Christmas to Me
+															<% end %>
+														</h4>
 													</div><!-- /.info -->
 												</figcaption>
 												
@@ -42,12 +48,18 @@
 											<figure>
 											
 												<div class="icon-overlay icn-link">
-													<a href="/media"><%= image_tag("media/work01.jpg") %></a>
+													<%= link_to fetch_media_path(:youtube_id => 'bgQ27eInKa0'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/bgQ27eInKa0/hqdefault.jpg") %>
+													<% end %>
 												</div><!-- /.icon-overlay -->
 												
 												<figcaption class="bordered no-top-border">
 													<div class="info">
-														<h4><a href="/media">Bye Bye Love</a></h4>
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => 'bgQ27eInKa0'), :remote => true do %>
+																Bye Bye Love
+															<% end %>
+														</h4>
 														<p>Alvin Kang & Selina Kim</p>
 													</div><!-- /.info -->
 												</figcaption>
@@ -59,12 +71,18 @@
 											<figure>
 											
 												<div class="icon-overlay icn-link">
-													<a href="/media"><%= image_tag("media/work01.jpg") %></a>
+													<%= link_to fetch_media_path(:youtube_id => '83W3nGRexCM'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/83W3nGRexCM/hqdefault.jpg") %>
+													<% end %>
 												</div><!-- /.icon-overlay -->
 												
 												<figcaption class="bordered no-top-border">
 													<div class="info">
-														<h4><a href="/media">&#19968;&#30524;&#30636;&#38291;</a></h4>
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => '83W3nGRexCM'), :remote => true do %>
+																&#19968;&#30524;&#30636;&#38291;
+															<% end %>
+														</h4>
 														<p>Nancy Zhu & Alex Li</p>
 													</div><!-- /.info -->
 												</figcaption>
@@ -76,42 +94,117 @@
 											<figure>
 											
 												<div class="icon-overlay icn-link">
-													<a href="/media"><%= image_tag("media/work01.jpg") %></a>
+													<%= link_to fetch_media_path(:youtube_id => 'c8Jwr3TDpog'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/c8Jwr3TDpog/hqdefault.jpg") %>
+													<% end %>
 												</div><!-- /.icon-overlay -->
 												
 												<figcaption class="bordered no-top-border">
 													<div class="info">
-														<h4><a href="/media">&#29233;</a></h4>
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => 'c8Jwr3TDpog'), :remote => true do %>
+																&#29233;
+															<% end %>
+														</h4>
 														<p>Andrew Ang & Lucy Yin</p>
 													</div><!-- /.info -->
 												</figcaption>
 												
 											</figure>
 										</div><!-- /.item -->
-									
+
 										<div class="item">
 											<figure>
 											
 												<div class="icon-overlay icn-link">
-													<a href="/media?video"><%= image_tag("media/work01.jpg") %></a>
+													<%= link_to fetch_media_path(:youtube_id => 'j_TOnC5CMAo'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/j_TOnC5CMAo/hqdefault.jpg") %>
+													<% end %>
 												</div><!-- /.icon-overlay -->
 												
 												<figcaption class="bordered no-top-border">
 													<div class="info">
-														<h4><a href="/media?video">&#25105;&#30340;&#27468;&#22768;&#37324;</a></h4>
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => 'j_TOnC5CMAo'), :remote => true do %>
+																DCD Show Case
+															<% end %>
+														</h4>
+														<p>Andrew Ang & Lucy Yin</p>
+														<p>Chrislyn Choo & Yu Zhou Lee</p>
+													</div><!-- /.info -->
+												</figcaption>
+												
+											</figure>
+										</div><!-- /.item -->	
+
+										<div class="item">
+											<figure>
+											
+												<div class="icon-overlay icn-link">
+													<%= link_to fetch_media_path(:youtube_id => '28y3oxCO7pE'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/28y3oxCO7pE/hqdefault.jpg") %>
+													<% end %>
+												</div><!-- /.icon-overlay -->
+												
+												<figcaption class="bordered no-top-border">
+													<div class="info">
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => '28y3oxCO7pE'), :remote => true do %>
+																&#25105;&#30340;&#27468;&#22768;&#37324;
+															<% end %>
+														</h4>
 														<p>Lucy Yin & Kevin Wu</p>
 													</div><!-- /.info -->
 												</figcaption>
 												
 											</figure>
-										</div><!-- /.item -->
-									
-										
-									
+										</div><!-- /.item -->	
 
-									
-										
-										
+										<div class="item">
+											<figure>
+											
+												<div class="icon-overlay icn-link">
+													<%= link_to fetch_media_path(:youtube_id => '0AoDV5T9QGs'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/0AoDV5T9QGs/hqdefault.jpg") %>
+													<% end %>
+												</div><!-- /.icon-overlay -->
+												
+												<figcaption class="bordered no-top-border">
+													<div class="info">
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => '0AoDV5T9QGs'), :remote => true do %>
+																&#22914;&#26524;&#27794;&#26377;&#20320;
+															<% end %>
+														</h4>
+														<p>Alex Li & Ivy Zhou</p>
+													</div><!-- /.info -->
+												</figcaption>
+												
+											</figure>
+										</div><!-- /.item -->	
+
+										<div class="item">
+											<figure>
+											
+												<div class="icon-overlay icn-link">
+													<%= link_to fetch_media_path(:youtube_id => 'kGrRYBHkOHo'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/kGrRYBHkOHo/hqdefault.jpg") %>
+													<% end %>
+												</div><!-- /.icon-overlay -->
+												
+												<figcaption class="bordered no-top-border">
+													<div class="info">
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => 'kGrRYBHkOHo'), :remote => true do %>
+																&#52376;&#51020;&#48473;&#44192;&#49845;&#45768;&#45796;
+															<% end %>
+														</h4>
+														<p>JiWon Seo & Alvin Kang</p>
+													</div><!-- /.info -->
+												</figcaption>
+												
+											</figure>
+										</div><!-- /.item -->	
 									</div><!-- /.owl-carousel -->
 								</div><!-- /.panel-body -->
 							</div><!-- /.content -->
@@ -127,22 +220,8 @@
 	
 	
 	<!-- ============================================================= SECTION – PORTFOLIO POST ============================================================= -->
-	
-	<section id="portfolio-post">
-		<div class="container inner-top-xs inner-bottom">
-			
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="video-container">
-						<iframe src="http://www.youtube.com/embed/xEQvW1wZhJM" width="1170" height="658" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					</div>
-				</div><!-- /.col -->
-			</div><!-- /.row -->
-			
-		</div><!-- /.container -->
-		
-	</section>
-	
+	<%= render partial: 'youtube', locals: { path: @media_path, autoplay: @autoplay } %>
+	<div id="youtube-video"></div>
 	<!-- ============================================================= SECTION – PORTFOLIO POST : END ============================================================= -->
 	
 </main>

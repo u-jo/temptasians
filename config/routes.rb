@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'static_pages#index'
   get '/about' => 'static_pages#about'
   get '/media' => 'static_pages#media'
+  get 'fetch_media' => 'static_pages#from_path', as: 'fetch_media'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

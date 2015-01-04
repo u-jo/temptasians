@@ -3,3 +3,20 @@
 		padding-top: 50px;
 	}
 }
+
+#portfolio-post {
+	.inner-bottom {
+		padding-bottom: 0px;
+	}
+	.video-container {
+		padding-bottom: 40%;
+	}
+	.video-container iframe {
+		position: static;
+		width: 640px;
+		height: 390px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

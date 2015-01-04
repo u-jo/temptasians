@@ -12,5 +12,6 @@
 //
 //= require turbolinks
 //= require templates/template_script_order
+//= require jquery_ujs
 
 
