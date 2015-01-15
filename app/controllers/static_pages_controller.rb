@@ -10,6 +10,13 @@ class StaticPagesController < ApplicationController
 		@autoplay = 0
 	end
 
+	def bookings
+
+	end
+
+	def auditions
+	end
+
 	def from_path
 		@media_path = params[:youtube_id]
 		@autoplay = 1
