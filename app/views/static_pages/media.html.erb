@@ -12,15 +12,37 @@
 							
 							<div class="panel-heading text-center">
 								<h4 class="panel-title">
-									<a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#content">
+									<a>
 										<span>Our Performances</span>
 									</a>
 								</h4>
 							</div><!-- /.panel-heading -->
 							
-							<div id="content" class="panel-collapse collapse">
+							<div id="content" class="panel-collapse">
 								<div class="panel-body">
 									<div id="owl-videos" class="owl-carousel owl-item-gap">
+
+										<div class="item">
+											<figure>
+											
+												<div class="icon-overlay icn-link">
+													<%= link_to fetch_media_path(:youtube_id => 'fSo2glwQ26k'), {remote: true } do %>
+														<%= image_tag("http://img.youtube.com/vi/fSo2glwQ26k/hqdefault.jpg") %>
+													<% end %>
+												</div><!-- /.icon-overlay -->
+												
+												<figcaption class="bordered no-top-border">
+													<div class="info">
+														<h4>
+															<%= link_to fetch_media_path(:youtube_id => 'fSo2glwQ26k'), :remote => true do %>
+																Korea Night 2015
+															<% end %>
+														</h4>
+													</div><!-- /.info -->
+												</figcaption>
+												
+											</figure>
+										</div><!-- /.item -->
 										
 										<div class="item">
 											<figure>
