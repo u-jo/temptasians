@@ -6,7 +6,7 @@ class StaticPagesController < ApplicationController
 	end
 
 	def media
-		@media_path = 'fSo2glwQ26k'
+		@media_path = 'xHmjKRIrbkA'
 		@autoplay = 1
 	end
 
